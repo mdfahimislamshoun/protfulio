@@ -1,0 +1,44 @@
+/*common shear style*/
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+/*sher style hear*/
+.color{
+    color: #FD6E0A;
+}
+.primary-button{
+    border-radius: 5px;
+    background: #FD6E0A;
+    font-size: 20px;
+    color: #ffff;
+    font-style: normal;
+    font-weight: 700;
+    border: 0;
+    padding: 15px 35px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nave-brend{
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+
+    }
+
+nav>ul{
+    display: flex;
+    align-items: center;
+
+}
+ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+ul li a{
+    text-decoration: none;
+    color: #474747;
+}
