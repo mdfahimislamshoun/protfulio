@@ -1,10 +1,11 @@
-*{
+* {
     font-family: 'Work Sans', sans-serif;
     margin: 0;
     padding: 0;
 }
+
 /*common style*/
-.primary-button{
+.primary-button {
     width: 160px;
     height: 64px;
     color: #005FAC;
@@ -15,26 +16,30 @@
     margin-left: 364px;
     margin-top: 30px;
 }
+
 /*header style */
-header{
+header {
     width: 1600px;
     height: 808px;
     flex-shrink: 0;
     background-image: url(images/banner/banner3.png);
     background-size: cover;
-    
+
 }
-.bnear-text{
+
+.bnear-text {
     padding: 216px 230px 364px 845px;
 }
-.head-titel{
+
+.head-titel {
     width: 525px;
     color: #FFF;
     text-align: right;
     font-size: 65px;
     font-weight: 700;
 }
-.head-detels{
+
+.head-detels {
     width: 525px;
     color: #FFF;
     text-align: right;
@@ -42,36 +47,44 @@ header{
     font-weight: 400;
     line-height: 26px;
 }
+
 /*main section style*/
-main{
+main {
     width: 1600px;
-    height: 3200px;
+    height: 1700px;
     margin-top: 150px;
     background: #FFF;
 }
-.section-1{
+
+/*secton-1 style*/
+.section-1 {
     width: 80%;
     height: 900px;
     margin: auto;
     display: flex;
     align-items: center;
+
 }
-.pictuer-1{
-    width: 451px ;
+
+.pictuer-1 {
+    width: 451px;
     height: 898px;
 }
-.sceond-head{
+
+.sceond-head {
     width: 417px;
     margin-left: 200px;
 }
-.head-2{
+
+.head-2 {
     width: 288px;
     color: #151414;
     font-size: 40px;
     font-weight: 700;
     margin-bottom: 20px;
 }
-.deatils{
+
+.deatils {
     width: 416px;
     color: #444343;
     font-size: 16px;
@@ -79,17 +92,166 @@ main{
     line-height: 26px;
     margin-bottom: 10px;
 }
-.sceond-head ul li{
-   list-style: none;
-   color: #444343;
-   font-size: 16px;
-   font-weight: 400;
-   line-height: 26px;
+
+.sceond-head ul li {
+    list-style: none;
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
 }
-.sceond-head ul li i{
-    margin-right: 10px; 
+
+.sceond-head ul li i {
+    margin-right: 10px;
     color: #16D887;
 }
 
+/*planing style*/
+.planing {
+    width: 80%;
+    height: 300px;
+    margin: auto;
+}
 
+.planing>h2 {
+    width: 288px;
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: 43%;
+}
 
+.preant-box {
+    display: flex;
+    margin-top: 55px;
+
+}
+
+.box {
+    width: 24%;
+    height: 100%;
+    margin-left: 2%;
+
+}
+
+.box>h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #151414;
+    text-align: center;
+}
+
+.box>p {
+    font-size: 25px;
+    font-weight: 500;
+    color: #737272;
+    text-align: center;
+}
+
+.icon {
+    width: 93px;
+    height: 93px;
+    margin-left: 80px;
+}
+
+/* positive style*/
+.positive {
+    width: 1140px;
+    height: 300px;
+    background-image: url(images/gradient1.png), url(images/watch.png);
+    background-repeat: no-repeat;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.time {
+    width: 460px;
+    font-size: 40px;
+    font-weight: 700;
+    color: #FFF;
+    padding-top: 70px;
+    padding-left: 40px;
+}
+
+.time-btn {
+    width: 160px;
+    height: 64px;
+    color: #005FAC;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    background: #FFF;
+    margin: 20px 0px 0px 40px;
+}
+
+/*footer style*/
+footer {
+    width: 1600px;
+    height: 580px;
+    display: flex;
+    background: #151414;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.futuer {
+    width: 490px;
+    margin-left: 230px;
+}
+
+.futuer h2 {
+    font-size: 45px;
+    font-weight: 700;
+    color: #F8F8F8;
+    margin-bottom: 10px;
+}
+
+.futuer p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #FFF;
+}
+
+.mail {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #FFF;
+    margin-top: 20px;
+}
+
+.social {
+    width: 180px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.fome {
+    width: 330px;
+    margin-right: 230px;
+}
+
+.fome h2 {
+    font-size: 25px;
+    font-weight: 600;
+    color: #FFF;
+    margin-bottom: 20px;
+}
+
+.contace {
+    width: 325px;
+    height: 60px;
+    font-size: 18px;
+    font-weight: 400;
+    background: #151414;
+    margin-bottom: 20px;
+}
+
+.btn {
+    width: 170.106px;
+    height: 64px;
+    color: #FFF;
+    border-radius: 8px;
+    background: #005FAC;
+}
