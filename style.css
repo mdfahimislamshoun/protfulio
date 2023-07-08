@@ -42,3 +42,54 @@ header{
     font-weight: 400;
     line-height: 26px;
 }
+/*main section style*/
+main{
+    width: 1600px;
+    height: 3200px;
+    margin-top: 150px;
+    background: #FFF;
+}
+.section-1{
+    width: 80%;
+    height: 900px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.pictuer-1{
+    width: 451px ;
+    height: 898px;
+}
+.sceond-head{
+    width: 417px;
+    margin-left: 200px;
+}
+.head-2{
+    width: 288px;
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.deatils{
+    width: 416px;
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 10px;
+}
+.sceond-head ul li{
+   list-style: none;
+   color: #444343;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 26px;
+}
+.sceond-head ul li i{
+    margin-right: 10px; 
+    color: #16D887;
+}
+
+
+
