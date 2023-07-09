@@ -24,6 +24,7 @@ header {
     flex-shrink: 0;
     background-image: url(images/banner/banner3.png);
     background-size: cover;
+    background-position: left;
 
 }
 
@@ -50,7 +51,7 @@ header {
 
 /*main section style*/
 main {
-    width: 1600px;
+   max-width: 1600px;
     height: 1700px;
     margin-top: 150px;
     background: #FFF;
@@ -186,7 +187,7 @@ main {
 
 /*footer style*/
 footer {
-    width: 1600px;
+   max-width: 1600px;
     height: 580px;
     display: flex;
     background: #151414;
@@ -197,6 +198,7 @@ footer {
 .futuer {
     width: 490px;
     margin-left: 230px;
+    padding-top: 60px;
 }
 
 .futuer h2 {
@@ -229,7 +231,8 @@ footer {
 
 .fome {
     width: 330px;
-    margin-right: 230px;
+    margin-right: 150px;
+    margin-left: 80px;
 }
 
 .fome h2 {
@@ -252,6 +255,6 @@ footer {
     width: 170.106px;
     height: 64px;
     color: #FFF;
-    border-radius: 8px;
+    border-radius: 4px;
     background: #005FAC;
 }
